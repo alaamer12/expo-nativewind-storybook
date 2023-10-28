@@ -2,6 +2,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 import React from "react"
+
 import { Text, View, Platform } from "react-native"
 import { TouchableOpacity } from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context"

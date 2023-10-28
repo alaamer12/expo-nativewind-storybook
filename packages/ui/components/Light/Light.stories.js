@@ -13,9 +13,9 @@ const LightMeta = {
 	},
 	decorators: [
 		(Story) => (
-			<View style={{ alignItems: "center", justifyContent: "center", flex: 1 }}>
-				<Story />
-			</View>
+			
+			<Story />
+			
 		),
 	],
 }

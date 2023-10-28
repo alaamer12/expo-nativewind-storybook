@@ -3,26 +3,20 @@
   "compilerOptions": {
     "strict": true,
     "baseUrl": ".",
-    // "paths": {
-    //   "@/app/*": [
-    //     "app/*"
-    //   ],
-    //   "@/assets/*": [
-    //     "assets/*"
-    //   ],
-    //   "@/components/*": [
-    //     "components/*"
-    //   ],
-    //   "@/utils/*": [
-    //     "utils/*"
-    //   ],
-    //   "@/state/*": [
-    //     "state/*"
-    //   ],
-    //   "@/types/*": [
-    //     "types/*"
-    //   ]
-    // }
+    "paths": {
+    "@/*": ["../../*"],
+    "features/*": ["./packages/features/*"],
+    "@/components/*": ["../components/*"],
+    "@/utils/*": ["../utils/*"],
+    "@/hooks/*": ["../hooks/*"],
+    "@/common/*": ["../common/*"],
+    "@/providers/*": ["../providers/*"],
+    "providers/*": ["./packages/ui/providers/*"],
+    "utils/*": ["./packages/ui/utils/*"],
+    "hooks/*": ["./packages/ui/hooks/*"],
+    "components/*": ["./packages/ui/components/*"],
+    "common/*": ["./packages/ui/common/*"],
+    }
   },
   "include": [
     "**/*.ts",

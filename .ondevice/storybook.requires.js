@@ -63,15 +63,14 @@ try {
 
 const getStories = () => {
   return {
-    "./packages/ui/components/Button/Button.stories.js": require("../packages/ui/components/Button/Button.stories.js"),
-    "./packages/ui/components/Dark/Dark.stories.js": require("../packages/ui/components/Dark/Dark.stories.js"),
+    "./packages/ui/components/LangButton/LangButton.stories.js": require("../packages/ui/components/LangButton/LangButton.stories.js"),
     "./packages/ui/components/Light/Light.stories.js": require("../packages/ui/components/Light/Light.stories.js"),
     "./packages/ui/components/Rounded/Rounded.stories.js": require("../packages/ui/components/Rounded/Rounded.stories.js"),
-    "./packages/ui/components/UITesting/Amr/Amr.stories.js": require("../packages/ui/components/UITesting/Amr/Amr.stories.js"),
-    "./packages/ui/components/UITesting/Button/Button.stories.js": require("../packages/ui/components/UITesting/Button/Button.stories.js"),
-    "./packages/ui/components/UITesting/Dark/Dark.stories.js": require("../packages/ui/components/UITesting/Dark/Dark.stories.js"),
-    "./packages/ui/components/UITesting/Font/Font.stories.js": require("../packages/ui/components/UITesting/Font/Font.stories.js"),
     "./packages/ui/components/UITesting/MotiAnimatePresence/MotiAnimatePresence.stories.js": require("../packages/ui/components/UITesting/MotiAnimatePresence/MotiAnimatePresence.stories.js"),
+    "./packages/ui/components/UITesting/MotiPressableComp/MotiPressableComp.stories.js": require("../packages/ui/components/UITesting/MotiPressableComp/MotiPressableComp.stories.js"),
+    "./packages/ui/components/UITesting/MotiViewComp/MotiViewComp.stories.js": require("../packages/ui/components/UITesting/MotiViewComp/MotiViewComp.stories.js"),
+    "./packages/ui/components/UITesting/NativeFonts/NativeFonts.stories.js": require("../packages/ui/components/UITesting/NativeFonts/NativeFonts.stories.js"),
+    "./packages/ui/components/UITesting/WebFonts/Font.stories.js": require("../packages/ui/components/UITesting/WebFonts/Font.stories.js"),
   };
 };
 

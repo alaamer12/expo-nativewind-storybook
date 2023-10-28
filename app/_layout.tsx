@@ -1,5 +1,5 @@
 import FontAwesome from "@expo/vector-icons/FontAwesome"
-
+import LanguageProvider from "../packages/ui/providers/LanguageProvider"
 import { useFonts } from "expo-font"
 import { SplashScreen, Stack } from "expo-router"
 import { useEffect } from "react"
@@ -51,11 +51,11 @@ function RootLayoutNav() {
 
 
 	return (
-
-		<Stack>
-			<Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-			<Stack.Screen name="modal" options={{ presentation: "modal" }} />
-		</Stack>
-
+		<LanguageProvider>
+			<Stack>
+				<Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+				<Stack.Screen name="modal" options={{ presentation: "modal" }} />
+			</Stack>
+		</LanguageProvider>
 	)
 }
